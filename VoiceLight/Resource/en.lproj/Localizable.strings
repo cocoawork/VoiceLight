@@ -1,0 +1,18 @@
+/* 
+  CustomLocalizable.strings
+  VoiceLight
+
+  Created by cocoawork on 2017/6/27.
+  Copyright © 2017年 cocoawork. All rights reserved.
+*/
+
+"SettingTitle" = "Setting";
+"Cancel"       = "Cancel";
+"Mode"         = "Mode";
+"Color"        = "Color";
+"Voice"        = "Voice";
+"ScreenLight"  = "ScreenLight";
+"FlashLight"   = "FlashLight";
+"SetLightSourceDescription" = "Select Light Source Mode!";
+
+

@@ -1,0 +1,1309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001CE018E274B16E6E007AB08660D8B5 /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACA39C1DE053CA140894F494444DD5D /* HRBrightnessCursor.m */; };
+		002D4011B6728821432898DB22BC7997 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 150F477F09AACC84CD5617EAC48B60E4 /* ar.lproj */; };
+		0131C7DA6737D3BC841FC2061F7DAA44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A71A88D1CD24046CEF5CC0B3913B4B /* CoreGraphics.framework */; };
+		05387949D1B7009F8DF4B9CD93F8DE1A /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CFDD2C0AF0A8C8991467094B07770D30 /* da.lproj */; };
+		0B449C21608684DBB2A06D97A0C933A9 /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F51775B98F73B1C7F90E207AD93DF71C /* fi.lproj */; };
+		0BEBF4256A19035EE9B8BF98A1750256 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D759F16AC8DA415FC73EF07C7A0906C8 /* ko.lproj */; };
+		0C2E779FA51FEF3CF9A9F637E99FF5ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB1A671CCCEA3146FDFBF6A9C08F2D7 /* Foundation.framework */; };
+		0E4F8F3D797C91B1B73E409EF285BA5A /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 18CF91FF7B0B9FDF4ED6107A27CD5212 /* sv.lproj */; };
+		11B69DF4F439BD54C077D9ED79ED532A /* UIImage+CoreGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5A3C3F8804AC3F2D29FADED973E3E4 /* UIImage+CoreGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18ACFA0856E1F7B912DFB820B9DCD075 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6624A8BC6B54D09B4A24F1E0CA383C76 /* fr.lproj */; };
+		19229144413A708B06EE3B75F9671E67 /* SCLAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 99710203EAB7DF7D0FD369E90AC8D4A5 /* SCLAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD74F9D58781079FD021AE3CBEA504E /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 50E8B5FD90B3FCDBDBA912E41C4E57D1 /* it.lproj */; };
+		1D1C15882D262020500138C920219841 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA5FF7E0054C109BE956D2E432C9E3D /* AudioToolbox.framework */; };
+		1EA492B020081616CBD395868FC26133 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C2816A7D52D93EA5022702BD758AB6 /* Accelerate.framework */; };
+		243749C4D8DAAF6C44F1E0121251FC75 /* SCLSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB5A3BD36F9558F8F42BC4191D5FED /* SCLSwitchView.m */; };
+		2483BFAB5600F39F74BF2E836C06B602 /* HRColorMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = E890DF49EEEC03DDD6448E04431E938B /* HRColorMapView.m */; };
+		275FA8A5C33D35324F093CAC4A4447E5 /* HRBrightnessCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A5F84CC80BED5162092BA7DF09A308 /* HRBrightnessCursor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27FB63373E84BF871AB5374BA2A6BAAB /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DCEDCA7BECC7C08E5124CE03B6DB5C50 /* ja.lproj */; };
+		2954A09F1664607B2A4821459BA7FF2B /* ca.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0D6D5CDCBA89859FF7F98473B9F28C1D /* ca.lproj */; };
+		2BD9F1B7CD45CF16BB73026A302C240C /* Harpy.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C08E7E301702E18DEF924FA5A177AD /* Harpy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D3E3DFB872FD2081EDAD37F69FC8348 /* SCLTimerDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AB1005A8E3B281A86EFB7D99341897 /* SCLTimerDisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3353666CED8075BB126EC6DC7CEBB321 /* HRHSVColorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 36FAC9091904164E926621D2A6F117EE /* HRHSVColorUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35A55636A852CC24720CCA79DF993757 /* SCLAlertViewStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5F98B6886F5143FB98C57419B4197D /* SCLAlertViewStyleKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38855F9169569A31A238701DE96E688B /* SCLSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = C3573E3F6B1A22945737D60209BF9BEA /* SCLSwitchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB5591DB744B515CB32E003BACAD07A /* HRColorInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB5EE9669BFFD7B844955402419956C /* HRColorInfoView.m */; };
+		43C179DF0555C94E94B0AD74BBE2D7F8 /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2873B6628451F8B673622014186566EA /* cs.lproj */; };
+		4C1C480A1DE477ACE7A4A10EA8573A57 /* HRColorPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC8C43AB523AC9A5C4E17A6CAB3D1A5 /* HRColorPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DA7CD733E790EC02757213AF8156A28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB1A671CCCEA3146FDFBF6A9C08F2D7 /* Foundation.framework */; };
+		4DD41455FB4B3248D11A9F4D4206EF79 /* SCLAlertViewResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = A73E4B9E88B1F4D68DAEAAE082C0308E /* SCLAlertViewResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52E86266DB0008394464117EA3481D8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB1A671CCCEA3146FDFBF6A9C08F2D7 /* Foundation.framework */; };
+		53AEBB0E52FB64B46506AB8D241F1887 /* ro.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EAFB51EB1DD605806B92E98DE23C81F4 /* ro.lproj */; };
+		5CBE6F96D43FB4BCE512F4DF7A6161BD /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D631EFDABB307904245930884F86635 /* SCLButton.m */; };
+		5F2D62180425F38B5BBD58CCCCCAA097 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EDA1B84450AE84E4FC4C24BC13F85E2D /* tr.lproj */; };
+		5F4E05D9FCE252B853BC0228B418BFDB /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 14D20493029A79051D40E2D187980458 /* pl.lproj */; };
+		610D0E7F2510216FB4A6AA8336ACCDA8 /* Pods-VoiceLight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D49477B35BBA06631B7F3EBF5F304F6 /* Pods-VoiceLight-dummy.m */; };
+		61C6D5DD82CB7A9728A0CFB60ADEED76 /* HRColorMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = B38B50BD90175DAA7AE400549728C592 /* HRColorMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64A9BF9124B9BDEA9DB34FAFC4DA332A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5A148E1691D114A5636A5B4A9936EC /* CFNetwork.framework */; };
+		67C9964720BC22157DF37E7970242031 /* SCLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A31F334EFF9C6D8DDFC9DB030E13EE87 /* SCLButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F7832A0EA05E11C65EB6949B4E0EB8 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E7D4064DB7AE470FFA0D2C5515779801 /* vi.lproj */; };
+		6A9E043ABBF5DE0FECDEC7295E9418E5 /* nb.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1E080C7E8622810F5F7992FC590D066F /* nb.lproj */; };
+		6B669D178BF16C1B70D332ED1AD3883C /* Appirater.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC50486A6B1988E1DA73ADB94F77D47 /* Appirater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DCF6D758A9AACCA4046BE7B0E855C70 /* Color-Picker-for-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F9BA3DF91BC019C7095BAD1D97582 /* Color-Picker-for-iOS-dummy.m */; };
+		7011052D09304C0D5776711305A7D999 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9A748096CA45080A400374BA3C6C7658 /* ru.lproj */; };
+		7369A4350C26B6D184D0A77572378A9D /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F61EDDCCD25D769EC0FFF0989A73D1 /* HRColorPickerView.m */; };
+		7515AFA18A90EC36018F12E45F657077 /* SCLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8D7D4E9B3562B856243423C2A92563 /* SCLTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		784A3030BCA25B6AE2779A0433CD22A4 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 48A592C1E774C5A274EB1666067EE81B /* zh-Hant.lproj */; };
+		79590C747F29624653040AAFEB11F608 /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA4B265404A14ACB132AE6C0DDD940 /* ms.lproj */; };
+		7C3CD9C3541F55F7CDCDB5C7B919C74A /* HRColorInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88BB7C1F068CB3EE00DAAE7A6E2AF3A1 /* HRColorInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E94D43473DCF29403BD0E21F641CB75 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EB75C1C2343DBFCAB99CB72B6BF27C61 /* en.lproj */; };
+		86627757DC22B74C6C391BDDA35D3DE4 /* SCLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B06661F858EADD66045454A806128B72 /* SCLTextView.m */; };
+		86664B02578B4978B587D194FEB48926 /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5A06E5DE4BDB23AA1576C97D5434B /* HRColorCursor.m */; };
+		8C56BDE167A7CA16BA8EEF4DA98B3C5C /* HRHSVColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB75E3D34275F22E1D0B518F13818AB /* HRHSVColorUtil.m */; };
+		9638D8C29CA39D87FBE135046473CE7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E19121ED6B25EC37B842C93BCD382A1 /* UIKit.framework */; };
+		9813D82C34C6DF74A8708A7690C5E134 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB1A671CCCEA3146FDFBF6A9C08F2D7 /* Foundation.framework */; };
+		9A91ED9B631D9B7AA055DBC369A0BABC /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C48C96B99EECFA0B5FAF3EA1246139E /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DA052A4730AF10D9D8620C76121B7F0 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C0FCFB22A27F200B94947289BEB67ADB /* pt.lproj */; };
+		9F83010E34B81A3ECF00A51AB7F7BC1C /* SCLMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B62A16E1020F1AE35309E8F2CB70C649 /* SCLMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A412B878B05FADCB73C65F9E20F4D6D5 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7E479F635AB55328DC18DDD6562AF7C3 /* zh-Hans.lproj */; };
+		A46E78C4B01E0D7965F67B65E08E79A8 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E74C4B023709CD83286DC7339B3DF50F /* de.lproj */; };
+		AF57B850F4C8DA64F3E901C14A20E9BB /* AppiraterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCB511C5EF7ABEB4988B2059EA0EEB2 /* AppiraterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0FD8DFDAD4F71C127AE341F1A772684 /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EC744B4685B97817E48A88FA65AB5A /* SCLTimerDisplay.m */; };
+		B571D9B5770CD66FD411FAED5143EC8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB1A671CCCEA3146FDFBF6A9C08F2D7 /* Foundation.framework */; };
+		B678BD26B6FB6D60E7B4382F0385F270 /* HRBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EAC1362C332EA4E87B8338481499E2 /* HRBrightnessSlider.m */; };
+		B93DA57C34638AE5C594C70F4E258322 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBD811D61531755CD2970F9C63DB457 /* SystemConfiguration.framework */; };
+		B9E45D5B8A02EBBE5951FBEC8A1DCC44 /* HRBrightnessSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = D03D3953E117D4D3D51FA9E724AA2057 /* HRBrightnessSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE52B1C03B7D54136733FF0380206135 /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 50833E1433E0AB3BD2064A056590067F /* hu.lproj */; };
+		BE565DF4B64C3C7F970DA2315A650F79 /* SCLAlertView-Objective-C-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFCA110398C85F5AE8852A00A6385 /* SCLAlertView-Objective-C-dummy.m */; };
+		BE8340194BD66D7D4F9F415C5B93ED38 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E32B0876C8AC9829778BDEBDC7B7337F /* nl.lproj */; };
+		C0DA362411B9F7F0FB8F5D358894ABF1 /* el.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D5B57DC63A925126EB8D90AD8E4588A9 /* el.lproj */; };
+		C40C2D27B028D43368344112D5C6A4EE /* HRColorCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1DE54F45A777C13ADF369EFB744F62 /* HRColorCursor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C50C2D1A8814B8FAFAAE3C0A5F373AD0 /* UIImage+CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = A3905633DBA581A85DEC9777ABCB375E /* UIImage+CoreGraphics.m */; };
+		C5540C5D5021B07E5041FE937AF79293 /* th.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 65AA04E3ECC8EB20B886468DC3FEA814 /* th.lproj */; };
+		C6A09F1ADC98B2703246CB44323B8517 /* Appirater-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA85B2365B88FD8D1384C22E40687ED4 /* Appirater-dummy.m */; };
+		C6BADC225AC042AF178EC075421EB3CC /* Harpy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EACA5A68E95D4158DFD483F82A82D5 /* Harpy.m */; };
+		C9824C9D9309176D71FAAD1862F01043 /* pt-BR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 84D9A7F78D48502DB9A747E0413B1AB5 /* pt-BR.lproj */; };
+		CB8F5AE76E6BFAE0B0F9CC6FB851661C /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6A7FF2EA372920DC353F0D0D5E994 /* SCLAlertView.m */; };
+		D183D1F5A1571007A560D2E7F3DC53F4 /* he.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 67524919816E1E25624C48E3059F513B /* he.lproj */; };
+		D3642D8B667F46F7392BD9297027E7FF /* Harpy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7942A2FC927BA9A9A47EE94C153D124A /* Harpy-dummy.m */; };
+		DC0B9285F5B13FC3C8CBDE9371C2D0A8 /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C159365F5F445C36CEEF992DF9077F /* SCLAlertViewResponder.m */; };
+		DCB2558F76BCF2416DDFE8158456BD7C /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E17F761C14DE3575724CA77C54AFA5 /* SCLAlertViewStyleKit.m */; };
+		E03DE9FF23AB7457166D7441DD26758B /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0AD5B2F1E75C00852910DFC7DCBA83FE /* es.lproj */; };
+		F0E53499E2DFDDD5822B2DCD7DEB9887 /* sk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 03AA536114721DC937A35A76CED041B6 /* sk.lproj */; };
+		F299B9FCEBEDFE9A2EC4D6BFEEA55483 /* uk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 06E35CBFF11F853C0700D57A92210D00 /* uk.lproj */; };
+		F2AF5512930053A99AD31A87E09BEE6F /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 47444408E89D5683FEFCCF115C74566A /* Appirater.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F4CE7B6EA5CBBB32CD6928921348D405 /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8519290325F2F06CAA7F33A0BD959C45 /* id.lproj */; };
+		F5483B3C17DC49788A619676781E7DD0 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AAD423D45FB994D1636435ABD9795A /* UIImage+ImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E3E92A361E72B4FE01FF692A8578192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E29E66CF88348E807198775237D46EC2;
+			remoteInfo = Harpy;
+		};
+		97020F5714690F042B736BD6C705304A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBBC8921BA1356CA84C7AE46DBCDDC17;
+			remoteInfo = Appirater;
+		};
+		99310C9A0A18EE5F34075505F8EE69FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D830B9E35BB06E1FB1CF5867F1EFAF3;
+			remoteInfo = "SCLAlertView-Objective-C";
+		};
+		A5251B0C6D3F044DAEDE8E02A9A7864F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C3085ED4C6B66E4848EFC7993C6B045;
+			remoteInfo = "Color-Picker-for-iOS";
+		};
+		B34F04D4F736261CC4241571A90DF175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF880A7BBC8CC3F13B3C8A1B5D0F5FC3;
+			remoteInfo = "Appirater-Appirater";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AA536114721DC937A35A76CED041B6 /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = sk.lproj; sourceTree = "<group>"; };
+		06E35CBFF11F853C0700D57A92210D00 /* uk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = uk.lproj; sourceTree = "<group>"; };
+		09D4A9AC220EC76D7A26C67F6A5BA584 /* Pods-VoiceLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceLight.release.xcconfig"; sourceTree = "<group>"; };
+		0AD5B2F1E75C00852910DFC7DCBA83FE /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = es.lproj; sourceTree = "<group>"; };
+		0D6D5CDCBA89859FF7F98473B9F28C1D /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ca.lproj; sourceTree = "<group>"; };
+		12381A526641D9F1009BFF9B36B3A13A /* Color-Picker-for-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Color-Picker-for-iOS.xcconfig"; sourceTree = "<group>"; };
+		14D20493029A79051D40E2D187980458 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = pl.lproj; sourceTree = "<group>"; };
+		150F477F09AACC84CD5617EAC48B60E4 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ar.lproj; sourceTree = "<group>"; };
+		15C08E7E301702E18DEF924FA5A177AD /* Harpy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Harpy.h; path = Harpy/Harpy.h; sourceTree = "<group>"; };
+		15C159365F5F445C36CEEF992DF9077F /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewResponder.m; path = SCLAlertView/SCLAlertViewResponder.m; sourceTree = "<group>"; };
+		17C2816A7D52D93EA5022702BD758AB6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		18CF91FF7B0B9FDF4ED6107A27CD5212 /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = sv.lproj; sourceTree = "<group>"; };
+		1A82C71DC16C784D138EC67EBEFC9B61 /* Pods-VoiceLight-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VoiceLight-frameworks.sh"; sourceTree = "<group>"; };
+		1E080C7E8622810F5F7992FC590D066F /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = nb.lproj; sourceTree = "<group>"; };
+		23AAD423D45FB994D1636435ABD9795A /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "SCLAlertView/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		24A5F84CC80BED5162092BA7DF09A308 /* HRBrightnessCursor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRBrightnessCursor.h; path = ColorPicker/HRBrightnessCursor.h; sourceTree = "<group>"; };
+		26A71A88D1CD24046CEF5CC0B3913B4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		2873B6628451F8B673622014186566EA /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = cs.lproj; sourceTree = "<group>"; };
+		295FD798DC3774C65FDD13AF2F541F1D /* Harpy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Harpy-prefix.pch"; sourceTree = "<group>"; };
+		29C61F2B7E67A081BC56DC9C2C75BDEC /* Pods-VoiceLight-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceLight-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E19121ED6B25EC37B842C93BCD382A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		36FAC9091904164E926621D2A6F117EE /* HRHSVColorUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRHSVColorUtil.h; path = ColorPicker/HRHSVColorUtil.h; sourceTree = "<group>"; };
+		3BAA4B265404A14ACB132AE6C0DDD940 /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ms.lproj; sourceTree = "<group>"; };
+		3D1D981C0B31053C0EC35F83D18415C3 /* Pods-VoiceLight-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoiceLight-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F2834F55631A69EA37E40AD06AB5445 /* Harpy.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Harpy.bundle; path = Harpy/Harpy.bundle; sourceTree = "<group>"; };
+		47444408E89D5683FEFCCF115C74566A /* Appirater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
+		48A592C1E774C5A274EB1666067EE81B /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = "zh-Hant.lproj"; sourceTree = "<group>"; };
+		493B06A11E6CF8F1D7BC23AFBD0D14EF /* libAppirater.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAppirater.a; path = libAppirater.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACA39C1DE053CA140894F494444DD5D /* HRBrightnessCursor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRBrightnessCursor.m; path = ColorPicker/HRBrightnessCursor.m; sourceTree = "<group>"; };
+		4B1DE54F45A777C13ADF369EFB744F62 /* HRColorCursor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRColorCursor.h; path = ColorPicker/HRColorCursor.h; sourceTree = "<group>"; };
+		4DFB5A3BD36F9558F8F42BC4191D5FED /* SCLSwitchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLSwitchView.m; path = SCLAlertView/SCLSwitchView.m; sourceTree = "<group>"; };
+		4EC50486A6B1988E1DA73ADB94F77D47 /* Appirater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
+		50833E1433E0AB3BD2064A056590067F /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = hu.lproj; sourceTree = "<group>"; };
+		50E8B5FD90B3FCDBDBA912E41C4E57D1 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = it.lproj; sourceTree = "<group>"; };
+		5AD5A06E5DE4BDB23AA1576C97D5434B /* HRColorCursor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRColorCursor.m; path = ColorPicker/HRColorCursor.m; sourceTree = "<group>"; };
+		64F61EDDCCD25D769EC0FFF0989A73D1 /* HRColorPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRColorPickerView.m; path = ColorPicker/HRColorPickerView.m; sourceTree = "<group>"; };
+		65AA04E3ECC8EB20B886468DC3FEA814 /* th.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = th.lproj; sourceTree = "<group>"; };
+		6624A8BC6B54D09B4A24F1E0CA383C76 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = fr.lproj; sourceTree = "<group>"; };
+		67524919816E1E25624C48E3059F513B /* he.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = he.lproj; sourceTree = "<group>"; };
+		68EC744B4685B97817E48A88FA65AB5A /* SCLTimerDisplay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLTimerDisplay.m; path = SCLAlertView/SCLTimerDisplay.m; sourceTree = "<group>"; };
+		6BB75E3D34275F22E1D0B518F13818AB /* HRHSVColorUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRHSVColorUtil.m; path = ColorPicker/HRHSVColorUtil.m; sourceTree = "<group>"; };
+		6C48C96B99EECFA0B5FAF3EA1246139E /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "SCLAlertView/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		6D631EFDABB307904245930884F86635 /* SCLButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLButton.m; path = SCLAlertView/SCLButton.m; sourceTree = "<group>"; };
+		6FCB511C5EF7ABEB4988B2059EA0EEB2 /* AppiraterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
+		72E0519F76E55A436906B9144AD06CFA /* Color-Picker-for-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Color-Picker-for-iOS-prefix.pch"; sourceTree = "<group>"; };
+		7942A2FC927BA9A9A47EE94C153D124A /* Harpy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Harpy-dummy.m"; sourceTree = "<group>"; };
+		7B97D7509B150EADB0C5B3D5F79CBBF3 /* libHarpy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHarpy.a; path = libHarpy.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E479F635AB55328DC18DDD6562AF7C3 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
+		7F93AB611A49001E9AEBEF524DF6581F /* Harpy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Harpy.xcconfig; sourceTree = "<group>"; };
+		84D9A7F78D48502DB9A747E0413B1AB5 /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = "pt-BR.lproj"; sourceTree = "<group>"; };
+		8519290325F2F06CAA7F33A0BD959C45 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = id.lproj; sourceTree = "<group>"; };
+		88BB7C1F068CB3EE00DAAE7A6E2AF3A1 /* HRColorInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRColorInfoView.h; path = ColorPicker/HRColorInfoView.h; sourceTree = "<group>"; };
+		8A5F98B6886F5143FB98C57419B4197D /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewStyleKit.h; path = SCLAlertView/SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
+		8D49477B35BBA06631B7F3EBF5F304F6 /* Pods-VoiceLight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoiceLight-dummy.m"; sourceTree = "<group>"; };
+		92BDFCA110398C85F5AE8852A00A6385 /* SCLAlertView-Objective-C-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-Objective-C-dummy.m"; sourceTree = "<group>"; };
+		92EAC1362C332EA4E87B8338481499E2 /* HRBrightnessSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRBrightnessSlider.m; path = ColorPicker/HRBrightnessSlider.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99710203EAB7DF7D0FD369E90AC8D4A5 /* SCLAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertView.h; path = SCLAlertView/SCLAlertView.h; sourceTree = "<group>"; };
+		9A748096CA45080A400374BA3C6C7658 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ru.lproj; sourceTree = "<group>"; };
+		9BA01601A1E554712AA0E02BA1603059 /* SCLAlertView-Objective-C.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SCLAlertView-Objective-C.xcconfig"; sourceTree = "<group>"; };
+		9E5A148E1691D114A5636A5B4A9936EC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		9F7D1F20D174E1D59CD8B8035BA6CC9D /* SCLAlertView-Objective-C-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-Objective-C-prefix.pch"; sourceTree = "<group>"; };
+		A10443CC0772EAFA47936CFF18DF262B /* Pods-VoiceLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceLight.debug.xcconfig"; sourceTree = "<group>"; };
+		A31F334EFF9C6D8DDFC9DB030E13EE87 /* SCLButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLButton.h; path = SCLAlertView/SCLButton.h; sourceTree = "<group>"; };
+		A3905633DBA581A85DEC9777ABCB375E /* UIImage+CoreGraphics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CoreGraphics.m"; path = "ColorPicker/UIImage+CoreGraphics.m"; sourceTree = "<group>"; };
+		A73E4B9E88B1F4D68DAEAAE082C0308E /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewResponder.h; path = SCLAlertView/SCLAlertViewResponder.h; sourceTree = "<group>"; };
+		AAB5EE9669BFFD7B844955402419956C /* HRColorInfoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRColorInfoView.m; path = ColorPicker/HRColorInfoView.m; sourceTree = "<group>"; };
+		AE5A3C3F8804AC3F2D29FADED973E3E4 /* UIImage+CoreGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CoreGraphics.h"; path = "ColorPicker/UIImage+CoreGraphics.h"; sourceTree = "<group>"; };
+		B06661F858EADD66045454A806128B72 /* SCLTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLTextView.m; path = SCLAlertView/SCLTextView.m; sourceTree = "<group>"; };
+		B38B50BD90175DAA7AE400549728C592 /* HRColorMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRColorMapView.h; path = ColorPicker/HRColorMapView.h; sourceTree = "<group>"; };
+		B62A16E1020F1AE35309E8F2CB70C649 /* SCLMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLMacros.h; path = SCLAlertView/SCLMacros.h; sourceTree = "<group>"; };
+		B6EACA5A68E95D4158DFD483F82A82D5 /* Harpy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Harpy.m; path = Harpy/Harpy.m; sourceTree = "<group>"; };
+		B794C57DDF272469C6BBBB84B2C7D36B /* libColor-Picker-for-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libColor-Picker-for-iOS.a"; path = "libColor-Picker-for-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8D7D4E9B3562B856243423C2A92563 /* SCLTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLTextView.h; path = SCLAlertView/SCLTextView.h; sourceTree = "<group>"; };
+		C0FCFB22A27F200B94947289BEB67ADB /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = pt.lproj; sourceTree = "<group>"; };
+		C2F3C3AC51D75FD2DD4B677CDB11EE87 /* libPods-VoiceLight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VoiceLight.a"; path = "libPods-VoiceLight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3573E3F6B1A22945737D60209BF9BEA /* SCLSwitchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLSwitchView.h; path = SCLAlertView/SCLSwitchView.h; sourceTree = "<group>"; };
+		C40D19C929EF09E660E08359EDE222EE /* Appirater.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Appirater.bundle; path = Appirater.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58F9BA3DF91BC019C7095BAD1D97582 /* Color-Picker-for-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Color-Picker-for-iOS-dummy.m"; sourceTree = "<group>"; };
+		C5AB1005A8E3B281A86EFB7D99341897 /* SCLTimerDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLTimerDisplay.h; path = SCLAlertView/SCLTimerDisplay.h; sourceTree = "<group>"; };
+		CA475FAF7ABD4BF11AAD140D69F30BEC /* Appirater-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Appirater-prefix.pch"; sourceTree = "<group>"; };
+		CC3EF01637A60379F169B557920669A7 /* libSCLAlertView-Objective-C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libSCLAlertView-Objective-C.a"; path = "libSCLAlertView-Objective-C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDD2C0AF0A8C8991467094B07770D30 /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = da.lproj; sourceTree = "<group>"; };
+		D03D3953E117D4D3D51FA9E724AA2057 /* HRBrightnessSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRBrightnessSlider.h; path = ColorPicker/HRBrightnessSlider.h; sourceTree = "<group>"; };
+		D0C8E84BA840E21A260313222C4F0E79 /* Appirater.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Appirater.xcconfig; sourceTree = "<group>"; };
+		D5B57DC63A925126EB8D90AD8E4588A9 /* el.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = el.lproj; sourceTree = "<group>"; };
+		D6E17F761C14DE3575724CA77C54AFA5 /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewStyleKit.m; path = SCLAlertView/SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
+		D759F16AC8DA415FC73EF07C7A0906C8 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ko.lproj; sourceTree = "<group>"; };
+		DAC8C43AB523AC9A5C4E17A6CAB3D1A5 /* HRColorPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRColorPickerView.h; path = ColorPicker/HRColorPickerView.h; sourceTree = "<group>"; };
+		DCEDCA7BECC7C08E5124CE03B6DB5C50 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ja.lproj; sourceTree = "<group>"; };
+		E19144D5429EA12440763F0410D83598 /* Pods-VoiceLight-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VoiceLight-resources.sh"; sourceTree = "<group>"; };
+		E32B0876C8AC9829778BDEBDC7B7337F /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = nl.lproj; sourceTree = "<group>"; };
+		E55674495C9F70E6D893BB652D795042 /* ResourceBundle-Appirater-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Appirater-Info.plist"; sourceTree = "<group>"; };
+		E74C4B023709CD83286DC7339B3DF50F /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = de.lproj; sourceTree = "<group>"; };
+		E7D4064DB7AE470FFA0D2C5515779801 /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = vi.lproj; sourceTree = "<group>"; };
+		E890DF49EEEC03DDD6448E04431E938B /* HRColorMapView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRColorMapView.m; path = ColorPicker/HRColorMapView.m; sourceTree = "<group>"; };
+		EAFB51EB1DD605806B92E98DE23C81F4 /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ro.lproj; sourceTree = "<group>"; };
+		EB75C1C2343DBFCAB99CB72B6BF27C61 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = en.lproj; sourceTree = "<group>"; };
+		EDA1B84450AE84E4FC4C24BC13F85E2D /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = tr.lproj; sourceTree = "<group>"; };
+		EDBD811D61531755CD2970F9C63DB457 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		F51775B98F73B1C7F90E207AD93DF71C /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = fi.lproj; sourceTree = "<group>"; };
+		F7C6A7FF2EA372920DC353F0D0D5E994 /* SCLAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertView.m; path = SCLAlertView/SCLAlertView.m; sourceTree = "<group>"; };
+		FA85B2365B88FD8D1384C22E40687ED4 /* Appirater-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Appirater-dummy.m"; sourceTree = "<group>"; };
+		FAB1A671CCCEA3146FDFBF6A9C08F2D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FEA5FF7E0054C109BE956D2E432C9E3D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BD53656D0C8F16783ED1166CB4094ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A9BF9124B9BDEA9DB34FAFC4DA332A /* CFNetwork.framework in Frameworks */,
+				9813D82C34C6DF74A8708A7690C5E134 /* Foundation.framework in Frameworks */,
+				B93DA57C34638AE5C594C70F4E258322 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5533D63F836E9613A5E17EBCC07FD616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA492B020081616CBD395868FC26133 /* Accelerate.framework in Frameworks */,
+				1D1C15882D262020500138C920219841 /* AudioToolbox.framework in Frameworks */,
+				0131C7DA6737D3BC841FC2061F7DAA44 /* CoreGraphics.framework in Frameworks */,
+				0C2E779FA51FEF3CF9A9F637E99FF5ED /* Foundation.framework in Frameworks */,
+				9638D8C29CA39D87FBE135046473CE7F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962ED7712E9DDEA078E996D92CED55AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B571D9B5770CD66FD411FAED5143EC8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8490B00A02757E0CC38D8FC7FD604B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB49458B0F97530887A61865D5DB639F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E86266DB0008394464117EA3481D8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE6A0DEEE0F05A32D3EFFF50805B69E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA7CD733E790EC02757213AF8156A28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CCD6E315604E858659F4BBDF2D71225 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12381A526641D9F1009BFF9B36B3A13A /* Color-Picker-for-iOS.xcconfig */,
+				C58F9BA3DF91BC019C7095BAD1D97582 /* Color-Picker-for-iOS-dummy.m */,
+				72E0519F76E55A436906B9144AD06CFA /* Color-Picker-for-iOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Color-Picker-for-iOS";
+			sourceTree = "<group>";
+		};
+		329183544E5A5C5868B4E45219B1359B /* SCLAlertView-Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				99710203EAB7DF7D0FD369E90AC8D4A5 /* SCLAlertView.h */,
+				F7C6A7FF2EA372920DC353F0D0D5E994 /* SCLAlertView.m */,
+				A73E4B9E88B1F4D68DAEAAE082C0308E /* SCLAlertViewResponder.h */,
+				15C159365F5F445C36CEEF992DF9077F /* SCLAlertViewResponder.m */,
+				8A5F98B6886F5143FB98C57419B4197D /* SCLAlertViewStyleKit.h */,
+				D6E17F761C14DE3575724CA77C54AFA5 /* SCLAlertViewStyleKit.m */,
+				A31F334EFF9C6D8DDFC9DB030E13EE87 /* SCLButton.h */,
+				6D631EFDABB307904245930884F86635 /* SCLButton.m */,
+				B62A16E1020F1AE35309E8F2CB70C649 /* SCLMacros.h */,
+				C3573E3F6B1A22945737D60209BF9BEA /* SCLSwitchView.h */,
+				4DFB5A3BD36F9558F8F42BC4191D5FED /* SCLSwitchView.m */,
+				BB8D7D4E9B3562B856243423C2A92563 /* SCLTextView.h */,
+				B06661F858EADD66045454A806128B72 /* SCLTextView.m */,
+				C5AB1005A8E3B281A86EFB7D99341897 /* SCLTimerDisplay.h */,
+				68EC744B4685B97817E48A88FA65AB5A /* SCLTimerDisplay.m */,
+				6C48C96B99EECFA0B5FAF3EA1246139E /* UIImage+ImageEffects.h */,
+				23AAD423D45FB994D1636435ABD9795A /* UIImage+ImageEffects.m */,
+				68BD58C73C153A8A7435E13E31577F71 /* Support Files */,
+			);
+			name = "SCLAlertView-Objective-C";
+			path = "SCLAlertView-Objective-C";
+			sourceTree = "<group>";
+		};
+		37A0553E47FF9385246CA4C7568EBBB7 /* Pods-VoiceLight */ = {
+			isa = PBXGroup;
+			children = (
+				3D1D981C0B31053C0EC35F83D18415C3 /* Pods-VoiceLight-acknowledgements.markdown */,
+				29C61F2B7E67A081BC56DC9C2C75BDEC /* Pods-VoiceLight-acknowledgements.plist */,
+				8D49477B35BBA06631B7F3EBF5F304F6 /* Pods-VoiceLight-dummy.m */,
+				1A82C71DC16C784D138EC67EBEFC9B61 /* Pods-VoiceLight-frameworks.sh */,
+				E19144D5429EA12440763F0410D83598 /* Pods-VoiceLight-resources.sh */,
+				A10443CC0772EAFA47936CFF18DF262B /* Pods-VoiceLight.debug.xcconfig */,
+				09D4A9AC220EC76D7A26C67F6A5BA584 /* Pods-VoiceLight.release.xcconfig */,
+			);
+			name = "Pods-VoiceLight";
+			path = "Target Support Files/Pods-VoiceLight";
+			sourceTree = "<group>";
+		};
+		3902F8C0C5ADF08E476E348757E4EE92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8B08CA365E194C9326D256690BAC42B /* Appirater */,
+				968B862252A6EB07EB453121CCC67129 /* Color-Picker-for-iOS */,
+				D40FC78341305474428CB3BDA8742350 /* Harpy */,
+				329183544E5A5C5868B4E45219B1359B /* SCLAlertView-Objective-C */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4576FA1ABD610991DED53867AD604259 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F93AB611A49001E9AEBEF524DF6581F /* Harpy.xcconfig */,
+				7942A2FC927BA9A9A47EE94C153D124A /* Harpy-dummy.m */,
+				295FD798DC3774C65FDD13AF2F541F1D /* Harpy-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Harpy";
+			sourceTree = "<group>";
+		};
+		4C54D357330DDBD5C9D52147C0631CB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0C8E84BA840E21A260313222C4F0E79 /* Appirater.xcconfig */,
+				FA85B2365B88FD8D1384C22E40687ED4 /* Appirater-dummy.m */,
+				CA475FAF7ABD4BF11AAD140D69F30BEC /* Appirater-prefix.pch */,
+				E55674495C9F70E6D893BB652D795042 /* ResourceBundle-Appirater-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Appirater";
+			sourceTree = "<group>";
+		};
+		68BD58C73C153A8A7435E13E31577F71 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BA01601A1E554712AA0E02BA1603059 /* SCLAlertView-Objective-C.xcconfig */,
+				92BDFCA110398C85F5AE8852A00A6385 /* SCLAlertView-Objective-C-dummy.m */,
+				9F7D1F20D174E1D59CD8B8035BA6CC9D /* SCLAlertView-Objective-C-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView-Objective-C";
+			sourceTree = "<group>";
+		};
+		7B6B0A804B37F68C73187764EBE8A338 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F2834F55631A69EA37E40AD06AB5445 /* Harpy.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */,
+				3902F8C0C5ADF08E476E348757E4EE92 /* Pods */,
+				C657D909E34EC1FD1272CD9EFF5EBA66 /* Products */,
+				9BB7BBAF78CE21905C5902650F802E90 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		968B862252A6EB07EB453121CCC67129 /* Color-Picker-for-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				24A5F84CC80BED5162092BA7DF09A308 /* HRBrightnessCursor.h */,
+				4ACA39C1DE053CA140894F494444DD5D /* HRBrightnessCursor.m */,
+				D03D3953E117D4D3D51FA9E724AA2057 /* HRBrightnessSlider.h */,
+				92EAC1362C332EA4E87B8338481499E2 /* HRBrightnessSlider.m */,
+				4B1DE54F45A777C13ADF369EFB744F62 /* HRColorCursor.h */,
+				5AD5A06E5DE4BDB23AA1576C97D5434B /* HRColorCursor.m */,
+				88BB7C1F068CB3EE00DAAE7A6E2AF3A1 /* HRColorInfoView.h */,
+				AAB5EE9669BFFD7B844955402419956C /* HRColorInfoView.m */,
+				B38B50BD90175DAA7AE400549728C592 /* HRColorMapView.h */,
+				E890DF49EEEC03DDD6448E04431E938B /* HRColorMapView.m */,
+				DAC8C43AB523AC9A5C4E17A6CAB3D1A5 /* HRColorPickerView.h */,
+				64F61EDDCCD25D769EC0FFF0989A73D1 /* HRColorPickerView.m */,
+				36FAC9091904164E926621D2A6F117EE /* HRHSVColorUtil.h */,
+				6BB75E3D34275F22E1D0B518F13818AB /* HRHSVColorUtil.m */,
+				AE5A3C3F8804AC3F2D29FADED973E3E4 /* UIImage+CoreGraphics.h */,
+				A3905633DBA581A85DEC9777ABCB375E /* UIImage+CoreGraphics.m */,
+				0CCD6E315604E858659F4BBDF2D71225 /* Support Files */,
+			);
+			name = "Color-Picker-for-iOS";
+			path = "Color-Picker-for-iOS";
+			sourceTree = "<group>";
+		};
+		9BB7BBAF78CE21905C5902650F802E90 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37A0553E47FF9385246CA4C7568EBBB7 /* Pods-VoiceLight */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AE6D51798D0B9D40936262EEEFD7C8FD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				17C2816A7D52D93EA5022702BD758AB6 /* Accelerate.framework */,
+				FEA5FF7E0054C109BE956D2E432C9E3D /* AudioToolbox.framework */,
+				9E5A148E1691D114A5636A5B4A9936EC /* CFNetwork.framework */,
+				26A71A88D1CD24046CEF5CC0B3913B4B /* CoreGraphics.framework */,
+				FAB1A671CCCEA3146FDFBF6A9C08F2D7 /* Foundation.framework */,
+				EDBD811D61531755CD2970F9C63DB457 /* SystemConfiguration.framework */,
+				2E19121ED6B25EC37B842C93BCD382A1 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C657D909E34EC1FD1272CD9EFF5EBA66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40D19C929EF09E660E08359EDE222EE /* Appirater.bundle */,
+				493B06A11E6CF8F1D7BC23AFBD0D14EF /* libAppirater.a */,
+				B794C57DDF272469C6BBBB84B2C7D36B /* libColor-Picker-for-iOS.a */,
+				7B97D7509B150EADB0C5B3D5F79CBBF3 /* libHarpy.a */,
+				C2F3C3AC51D75FD2DD4B677CDB11EE87 /* libPods-VoiceLight.a */,
+				CC3EF01637A60379F169B557920669A7 /* libSCLAlertView-Objective-C.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D40FC78341305474428CB3BDA8742350 /* Harpy */ = {
+			isa = PBXGroup;
+			children = (
+				15C08E7E301702E18DEF924FA5A177AD /* Harpy.h */,
+				B6EACA5A68E95D4158DFD483F82A82D5 /* Harpy.m */,
+				7B6B0A804B37F68C73187764EBE8A338 /* Resources */,
+				4576FA1ABD610991DED53867AD604259 /* Support Files */,
+			);
+			name = Harpy;
+			path = Harpy;
+			sourceTree = "<group>";
+		};
+		D7BA7B27A6D5B84338D20DBEA5A06F28 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				150F477F09AACC84CD5617EAC48B60E4 /* ar.lproj */,
+				0D6D5CDCBA89859FF7F98473B9F28C1D /* ca.lproj */,
+				2873B6628451F8B673622014186566EA /* cs.lproj */,
+				CFDD2C0AF0A8C8991467094B07770D30 /* da.lproj */,
+				E74C4B023709CD83286DC7339B3DF50F /* de.lproj */,
+				D5B57DC63A925126EB8D90AD8E4588A9 /* el.lproj */,
+				EB75C1C2343DBFCAB99CB72B6BF27C61 /* en.lproj */,
+				0AD5B2F1E75C00852910DFC7DCBA83FE /* es.lproj */,
+				F51775B98F73B1C7F90E207AD93DF71C /* fi.lproj */,
+				6624A8BC6B54D09B4A24F1E0CA383C76 /* fr.lproj */,
+				67524919816E1E25624C48E3059F513B /* he.lproj */,
+				50833E1433E0AB3BD2064A056590067F /* hu.lproj */,
+				8519290325F2F06CAA7F33A0BD959C45 /* id.lproj */,
+				50E8B5FD90B3FCDBDBA912E41C4E57D1 /* it.lproj */,
+				DCEDCA7BECC7C08E5124CE03B6DB5C50 /* ja.lproj */,
+				D759F16AC8DA415FC73EF07C7A0906C8 /* ko.lproj */,
+				3BAA4B265404A14ACB132AE6C0DDD940 /* ms.lproj */,
+				1E080C7E8622810F5F7992FC590D066F /* nb.lproj */,
+				E32B0876C8AC9829778BDEBDC7B7337F /* nl.lproj */,
+				14D20493029A79051D40E2D187980458 /* pl.lproj */,
+				C0FCFB22A27F200B94947289BEB67ADB /* pt.lproj */,
+				84D9A7F78D48502DB9A747E0413B1AB5 /* pt-BR.lproj */,
+				EAFB51EB1DD605806B92E98DE23C81F4 /* ro.lproj */,
+				9A748096CA45080A400374BA3C6C7658 /* ru.lproj */,
+				03AA536114721DC937A35A76CED041B6 /* sk.lproj */,
+				18CF91FF7B0B9FDF4ED6107A27CD5212 /* sv.lproj */,
+				65AA04E3ECC8EB20B886468DC3FEA814 /* th.lproj */,
+				EDA1B84450AE84E4FC4C24BC13F85E2D /* tr.lproj */,
+				06E35CBFF11F853C0700D57A92210D00 /* uk.lproj */,
+				E7D4064DB7AE470FFA0D2C5515779801 /* vi.lproj */,
+				7E479F635AB55328DC18DDD6562AF7C3 /* zh-Hans.lproj */,
+				48A592C1E774C5A274EB1666067EE81B /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D8B08CA365E194C9326D256690BAC42B /* Appirater */ = {
+			isa = PBXGroup;
+			children = (
+				4EC50486A6B1988E1DA73ADB94F77D47 /* Appirater.h */,
+				47444408E89D5683FEFCCF115C74566A /* Appirater.m */,
+				6FCB511C5EF7ABEB4988B2059EA0EEB2 /* AppiraterDelegate.h */,
+				D7BA7B27A6D5B84338D20DBEA5A06F28 /* Resources */,
+				4C54D357330DDBD5C9D52147C0631CB0 /* Support Files */,
+			);
+			name = Appirater;
+			path = Appirater;
+			sourceTree = "<group>";
+		};
+		F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE6D51798D0B9D40936262EEEFD7C8FD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37822B91331D34A026FA7C2CFB1218CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD9F1B7CD45CF16BB73026A302C240C /* Harpy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460A9AC089991878894FC5E022507F42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B669D178BF16C1B70D332ED1AD3883C /* Appirater.h in Headers */,
+				AF57B850F4C8DA64F3E901C14A20E9BB /* AppiraterDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B76A96B0BDD5E12AEB2CEFCB1BE5AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19229144413A708B06EE3B75F9671E67 /* SCLAlertView.h in Headers */,
+				4DD41455FB4B3248D11A9F4D4206EF79 /* SCLAlertViewResponder.h in Headers */,
+				35A55636A852CC24720CCA79DF993757 /* SCLAlertViewStyleKit.h in Headers */,
+				67C9964720BC22157DF37E7970242031 /* SCLButton.h in Headers */,
+				9F83010E34B81A3ECF00A51AB7F7BC1C /* SCLMacros.h in Headers */,
+				38855F9169569A31A238701DE96E688B /* SCLSwitchView.h in Headers */,
+				7515AFA18A90EC36018F12E45F657077 /* SCLTextView.h in Headers */,
+				2D3E3DFB872FD2081EDAD37F69FC8348 /* SCLTimerDisplay.h in Headers */,
+				9A91ED9B631D9B7AA055DBC369A0BABC /* UIImage+ImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60AA5609D3B451DB8EECB1B4198C433 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275FA8A5C33D35324F093CAC4A4447E5 /* HRBrightnessCursor.h in Headers */,
+				B9E45D5B8A02EBBE5951FBEC8A1DCC44 /* HRBrightnessSlider.h in Headers */,
+				C40C2D27B028D43368344112D5C6A4EE /* HRColorCursor.h in Headers */,
+				7C3CD9C3541F55F7CDCDB5C7B919C74A /* HRColorInfoView.h in Headers */,
+				61C6D5DD82CB7A9728A0CFB60ADEED76 /* HRColorMapView.h in Headers */,
+				4C1C480A1DE477ACE7A4A10EA8573A57 /* HRColorPickerView.h in Headers */,
+				3353666CED8075BB126EC6DC7CEBB321 /* HRHSVColorUtil.h in Headers */,
+				11B69DF4F439BD54C077D9ED79ED532A /* UIImage+CoreGraphics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D830B9E35BB06E1FB1CF5867F1EFAF3 /* SCLAlertView-Objective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440DB370B43AB6BF7250C6C779B86FB2 /* Build configuration list for PBXNativeTarget "SCLAlertView-Objective-C" */;
+			buildPhases = (
+				061E4DFD0315B706096F7B2BBD592976 /* Sources */,
+				5533D63F836E9613A5E17EBCC07FD616 /* Frameworks */,
+				E2B76A96B0BDD5E12AEB2CEFCB1BE5AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SCLAlertView-Objective-C";
+			productName = "SCLAlertView-Objective-C";
+			productReference = CC3EF01637A60379F169B557920669A7 /* libSCLAlertView-Objective-C.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2CD8BA8FFCF52B3B88AA06AEF5F99829 /* Pods-VoiceLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5609BA2E00993BE846592E5E25844167 /* Build configuration list for PBXNativeTarget "Pods-VoiceLight" */;
+			buildPhases = (
+				DB4F452A08F22B2EEE5DE83BC1423819 /* Sources */,
+				DB49458B0F97530887A61865D5DB639F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE85C0B2561698D5B7CA9E45EF4B477F /* PBXTargetDependency */,
+				BC5AFF1DF0512160E59354F2D8B4E0C3 /* PBXTargetDependency */,
+				340FC7E7A5AD6D34458CE1889E02C01B /* PBXTargetDependency */,
+				16707571A12774D148071E373E30934C /* PBXTargetDependency */,
+			);
+			name = "Pods-VoiceLight";
+			productName = "Pods-VoiceLight";
+			productReference = C2F3C3AC51D75FD2DD4B677CDB11EE87 /* libPods-VoiceLight.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7C3085ED4C6B66E4848EFC7993C6B045 /* Color-Picker-for-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59F328AE331400E492391029384023F /* Build configuration list for PBXNativeTarget "Color-Picker-for-iOS" */;
+			buildPhases = (
+				ED83DFD79B905E36EF3BFC534BCBE541 /* Sources */,
+				962ED7712E9DDEA078E996D92CED55AE /* Frameworks */,
+				E60AA5609D3B451DB8EECB1B4198C433 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color-Picker-for-iOS";
+			productName = "Color-Picker-for-iOS";
+			productReference = B794C57DDF272469C6BBBB84B2C7D36B /* libColor-Picker-for-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CBBC8921BA1356CA84C7AE46DBCDDC17 /* Appirater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA31B7A9B2FEBA2F123125D7850DD548 /* Build configuration list for PBXNativeTarget "Appirater" */;
+			buildPhases = (
+				ED3394867E3108AF3853DE8A6E835EBF /* Sources */,
+				4BD53656D0C8F16783ED1166CB4094ED /* Frameworks */,
+				460A9AC089991878894FC5E022507F42 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78B215F27AE2A75313E16ACDAFEB3A7 /* PBXTargetDependency */,
+			);
+			name = Appirater;
+			productName = Appirater;
+			productReference = 493B06A11E6CF8F1D7BC23AFBD0D14EF /* libAppirater.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DF880A7BBC8CC3F13B3C8A1B5D0F5FC3 /* Appirater-Appirater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11C31EF369D912D83F165DD215F6F17 /* Build configuration list for PBXNativeTarget "Appirater-Appirater" */;
+			buildPhases = (
+				DE9EDDD3BFF9E62021DE43F7A6BFF733 /* Sources */,
+				D8490B00A02757E0CC38D8FC7FD604B0 /* Frameworks */,
+				A99504E89FBC8DE52A6F0990DEC8E4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Appirater-Appirater";
+			productName = "Appirater-Appirater";
+			productReference = C40D19C929EF09E660E08359EDE222EE /* Appirater.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E29E66CF88348E807198775237D46EC2 /* Harpy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797C016B6B0E5D41C4504F289CDFDD3D /* Build configuration list for PBXNativeTarget "Harpy" */;
+			buildPhases = (
+				A88DD2C9B089F590D47C62F1273D51C2 /* Sources */,
+				EFE6A0DEEE0F05A32D3EFFF50805B69E /* Frameworks */,
+				37822B91331D34A026FA7C2CFB1218CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Harpy;
+			productName = Harpy;
+			productReference = 7B97D7509B150EADB0C5B3D5F79CBBF3 /* libHarpy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C657D909E34EC1FD1272CD9EFF5EBA66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBBC8921BA1356CA84C7AE46DBCDDC17 /* Appirater */,
+				DF880A7BBC8CC3F13B3C8A1B5D0F5FC3 /* Appirater-Appirater */,
+				7C3085ED4C6B66E4848EFC7993C6B045 /* Color-Picker-for-iOS */,
+				E29E66CF88348E807198775237D46EC2 /* Harpy */,
+				2CD8BA8FFCF52B3B88AA06AEF5F99829 /* Pods-VoiceLight */,
+				0D830B9E35BB06E1FB1CF5867F1EFAF3 /* SCLAlertView-Objective-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A99504E89FBC8DE52A6F0990DEC8E4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002D4011B6728821432898DB22BC7997 /* ar.lproj in Resources */,
+				2954A09F1664607B2A4821459BA7FF2B /* ca.lproj in Resources */,
+				43C179DF0555C94E94B0AD74BBE2D7F8 /* cs.lproj in Resources */,
+				05387949D1B7009F8DF4B9CD93F8DE1A /* da.lproj in Resources */,
+				A46E78C4B01E0D7965F67B65E08E79A8 /* de.lproj in Resources */,
+				C0DA362411B9F7F0FB8F5D358894ABF1 /* el.lproj in Resources */,
+				7E94D43473DCF29403BD0E21F641CB75 /* en.lproj in Resources */,
+				E03DE9FF23AB7457166D7441DD26758B /* es.lproj in Resources */,
+				0B449C21608684DBB2A06D97A0C933A9 /* fi.lproj in Resources */,
+				18ACFA0856E1F7B912DFB820B9DCD075 /* fr.lproj in Resources */,
+				D183D1F5A1571007A560D2E7F3DC53F4 /* he.lproj in Resources */,
+				BE52B1C03B7D54136733FF0380206135 /* hu.lproj in Resources */,
+				F4CE7B6EA5CBBB32CD6928921348D405 /* id.lproj in Resources */,
+				1CD74F9D58781079FD021AE3CBEA504E /* it.lproj in Resources */,
+				27FB63373E84BF871AB5374BA2A6BAAB /* ja.lproj in Resources */,
+				0BEBF4256A19035EE9B8BF98A1750256 /* ko.lproj in Resources */,
+				79590C747F29624653040AAFEB11F608 /* ms.lproj in Resources */,
+				6A9E043ABBF5DE0FECDEC7295E9418E5 /* nb.lproj in Resources */,
+				BE8340194BD66D7D4F9F415C5B93ED38 /* nl.lproj in Resources */,
+				5F4E05D9FCE252B853BC0228B418BFDB /* pl.lproj in Resources */,
+				C9824C9D9309176D71FAAD1862F01043 /* pt-BR.lproj in Resources */,
+				9DA052A4730AF10D9D8620C76121B7F0 /* pt.lproj in Resources */,
+				53AEBB0E52FB64B46506AB8D241F1887 /* ro.lproj in Resources */,
+				7011052D09304C0D5776711305A7D999 /* ru.lproj in Resources */,
+				F0E53499E2DFDDD5822B2DCD7DEB9887 /* sk.lproj in Resources */,
+				0E4F8F3D797C91B1B73E409EF285BA5A /* sv.lproj in Resources */,
+				C5540C5D5021B07E5041FE937AF79293 /* th.lproj in Resources */,
+				5F2D62180425F38B5BBD58CCCCCAA097 /* tr.lproj in Resources */,
+				F299B9FCEBEDFE9A2EC4D6BFEEA55483 /* uk.lproj in Resources */,
+				67F7832A0EA05E11C65EB6949B4E0EB8 /* vi.lproj in Resources */,
+				A412B878B05FADCB73C65F9E20F4D6D5 /* zh-Hans.lproj in Resources */,
+				784A3030BCA25B6AE2779A0433CD22A4 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		061E4DFD0315B706096F7B2BBD592976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE565DF4B64C3C7F970DA2315A650F79 /* SCLAlertView-Objective-C-dummy.m in Sources */,
+				CB8F5AE76E6BFAE0B0F9CC6FB851661C /* SCLAlertView.m in Sources */,
+				DC0B9285F5B13FC3C8CBDE9371C2D0A8 /* SCLAlertViewResponder.m in Sources */,
+				DCB2558F76BCF2416DDFE8158456BD7C /* SCLAlertViewStyleKit.m in Sources */,
+				5CBE6F96D43FB4BCE512F4DF7A6161BD /* SCLButton.m in Sources */,
+				243749C4D8DAAF6C44F1E0121251FC75 /* SCLSwitchView.m in Sources */,
+				86627757DC22B74C6C391BDDA35D3DE4 /* SCLTextView.m in Sources */,
+				B0FD8DFDAD4F71C127AE341F1A772684 /* SCLTimerDisplay.m in Sources */,
+				F5483B3C17DC49788A619676781E7DD0 /* UIImage+ImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88DD2C9B089F590D47C62F1273D51C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3642D8B667F46F7392BD9297027E7FF /* Harpy-dummy.m in Sources */,
+				C6BADC225AC042AF178EC075421EB3CC /* Harpy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4F452A08F22B2EEE5DE83BC1423819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610D0E7F2510216FB4A6AA8336ACCDA8 /* Pods-VoiceLight-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9EDDD3BFF9E62021DE43F7A6BFF733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3394867E3108AF3853DE8A6E835EBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A09F1ADC98B2703246CB44323B8517 /* Appirater-dummy.m in Sources */,
+				F2AF5512930053A99AD31A87E09BEE6F /* Appirater.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED83DFD79B905E36EF3BFC534BCBE541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCF6D758A9AACCA4046BE7B0E855C70 /* Color-Picker-for-iOS-dummy.m in Sources */,
+				001CE018E274B16E6E007AB08660D8B5 /* HRBrightnessCursor.m in Sources */,
+				B678BD26B6FB6D60E7B4382F0385F270 /* HRBrightnessSlider.m in Sources */,
+				86664B02578B4978B587D194FEB48926 /* HRColorCursor.m in Sources */,
+				3EB5591DB744B515CB32E003BACAD07A /* HRColorInfoView.m in Sources */,
+				2483BFAB5600F39F74BF2E836C06B602 /* HRColorMapView.m in Sources */,
+				7369A4350C26B6D184D0A77572378A9D /* HRColorPickerView.m in Sources */,
+				8C56BDE167A7CA16BA8EEF4DA98B3C5C /* HRHSVColorUtil.m in Sources */,
+				C50C2D1A8814B8FAFAAE3C0A5F373AD0 /* UIImage+CoreGraphics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16707571A12774D148071E373E30934C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SCLAlertView-Objective-C";
+			target = 0D830B9E35BB06E1FB1CF5867F1EFAF3 /* SCLAlertView-Objective-C */;
+			targetProxy = 99310C9A0A18EE5F34075505F8EE69FB /* PBXContainerItemProxy */;
+		};
+		340FC7E7A5AD6D34458CE1889E02C01B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Harpy;
+			target = E29E66CF88348E807198775237D46EC2 /* Harpy */;
+			targetProxy = 3E3E92A361E72B4FE01FF692A8578192 /* PBXContainerItemProxy */;
+		};
+		BC5AFF1DF0512160E59354F2D8B4E0C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Color-Picker-for-iOS";
+			target = 7C3085ED4C6B66E4848EFC7993C6B045 /* Color-Picker-for-iOS */;
+			targetProxy = A5251B0C6D3F044DAEDE8E02A9A7864F /* PBXContainerItemProxy */;
+		};
+		DE85C0B2561698D5B7CA9E45EF4B477F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Appirater;
+			target = CBBC8921BA1356CA84C7AE46DBCDDC17 /* Appirater */;
+			targetProxy = 97020F5714690F042B736BD6C705304A /* PBXContainerItemProxy */;
+		};
+		F78B215F27AE2A75313E16ACDAFEB3A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Appirater-Appirater";
+			target = DF880A7BBC8CC3F13B3C8A1B5D0F5FC3 /* Appirater-Appirater */;
+			targetProxy = B34F04D4F736261CC4241571A90DF175 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2227B48448683CF5BCE906FDE5463FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C8E84BA840E21A260313222C4F0E79 /* Appirater.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Appirater/Appirater-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		257E77B4A182D129206B17C372A31DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C8E84BA840E21A260313222C4F0E79 /* Appirater.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Appirater/Appirater-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47B564222613971DB3AE2C39A63F4596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10443CC0772EAFA47936CFF18DF262B /* Pods-VoiceLight.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		662F0F6D42E7B59C475DC50E0C45BCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12381A526641D9F1009BFF9B36B3A13A /* Color-Picker-for-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Color-Picker-for-iOS/Color-Picker-for-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6A60EA251F612A68F741C693AF769322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA01601A1E554712AA0E02BA1603059 /* SCLAlertView-Objective-C.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView-Objective-C/SCLAlertView-Objective-C-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85286E8CE6F03B96CFAABB0AC9A2C277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA01601A1E554712AA0E02BA1603059 /* SCLAlertView-Objective-C.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView-Objective-C/SCLAlertView-Objective-C-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8723FBC393F88370045B7C6F15C421E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C8E84BA840E21A260313222C4F0E79 /* Appirater.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Appirater";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Appirater/ResourceBundle-Appirater-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = Appirater;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BD37411A94D307E8F1ACA2348F9A1402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F93AB611A49001E9AEBEF524DF6581F /* Harpy.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Harpy/Harpy-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BE18798F520E1E2286E01FD0F1DEB955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F93AB611A49001E9AEBEF524DF6581F /* Harpy.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Harpy/Harpy-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CC6CD49B0E119D39F47C9268B422E5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C8E84BA840E21A260313222C4F0E79 /* Appirater.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Appirater";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Appirater/ResourceBundle-Appirater-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = Appirater;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DA0B7C53A59E93030E006821173C03D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D4A9AC220EC76D7A26C67F6A5BA584 /* Pods-VoiceLight.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E57E285D5E1A855015E6A3589E712A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12381A526641D9F1009BFF9B36B3A13A /* Color-Picker-for-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Color-Picker-for-iOS/Color-Picker-for-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440DB370B43AB6BF7250C6C779B86FB2 /* Build configuration list for PBXNativeTarget "SCLAlertView-Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A60EA251F612A68F741C693AF769322 /* Debug */,
+				85286E8CE6F03B96CFAABB0AC9A2C277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5609BA2E00993BE846592E5E25844167 /* Build configuration list for PBXNativeTarget "Pods-VoiceLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B564222613971DB3AE2C39A63F4596 /* Debug */,
+				DA0B7C53A59E93030E006821173C03D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797C016B6B0E5D41C4504F289CDFDD3D /* Build configuration list for PBXNativeTarget "Harpy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE18798F520E1E2286E01FD0F1DEB955 /* Debug */,
+				BD37411A94D307E8F1ACA2348F9A1402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59F328AE331400E492391029384023F /* Build configuration list for PBXNativeTarget "Color-Picker-for-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662F0F6D42E7B59C475DC50E0C45BCB7 /* Debug */,
+				E57E285D5E1A855015E6A3589E712A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA31B7A9B2FEBA2F123125D7850DD548 /* Build configuration list for PBXNativeTarget "Appirater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257E77B4A182D129206B17C372A31DB2 /* Debug */,
+				2227B48448683CF5BCE906FDE5463FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11C31EF369D912D83F165DD215F6F17 /* Build configuration list for PBXNativeTarget "Appirater-Appirater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6CD49B0E119D39F47C9268B422E5E8 /* Debug */,
+				8723FBC393F88370045B7C6F15C421E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

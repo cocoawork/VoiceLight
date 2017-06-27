@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  VoiceLight
+//
+//  Created by cocoawork on 2017/6/27.
+//  Copyright © 2017年 cocoawork. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+
+
+#import "BaseViewController.h"
+#import "BaseNavigationController.h"
+#import "UIColor+HexString.h"
+
+
+
+#endif /* PrefixHeader_pch */
+
