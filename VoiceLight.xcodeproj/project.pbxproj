@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A37E73C2F390D486A011E60 /* libPods-VoiceLight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5791AA38579AADE4554F3495 /* libPods-VoiceLight.a */; };
 		D204CAB91F035B8800BA7CFF /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D204CAB81F035B8800BA7CFF /* LaunchImage.png */; };
+		D204CABC1F035FB200BA7CFF /* AnimationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D204CABB1F035FB200BA7CFF /* AnimationProvider.m */; };
 		D2496CAD1F02547100B80B76 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2496CAA1F02547100B80B76 /* BaseNavigationController.m */; };
 		D2496CAE1F02547100B80B76 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2496CAC1F02547100B80B76 /* BaseViewController.m */; };
 		D277D6CD1F02570D00C8A697 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D277D6CC1F02570D00C8A697 /* Info.plist */; };
@@ -36,6 +37,8 @@
 		5791AA38579AADE4554F3495 /* libPods-VoiceLight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceLight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFE3FE69BA16C64F47B7D3F /* Pods-VoiceLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceLight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceLight/Pods-VoiceLight.debug.xcconfig"; sourceTree = "<group>"; };
 		D204CAB81F035B8800BA7CFF /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		D204CABA1F035FB200BA7CFF /* AnimationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationProvider.h; sourceTree = "<group>"; };
+		D204CABB1F035FB200BA7CFF /* AnimationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationProvider.m; sourceTree = "<group>"; };
 		D2496CA91F02547100B80B76 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		D2496CAA1F02547100B80B76 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		D2496CAB1F02547100B80B76 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -213,6 +216,8 @@
 		D2EE74AE1F01F1A7004A4A82 /* AnimationStyle */ = {
 			isa = PBXGroup;
 			children = (
+				D204CABA1F035FB200BA7CFF /* AnimationProvider.h */,
+				D204CABB1F035FB200BA7CFF /* AnimationProvider.m */,
 			);
 			path = AnimationStyle;
 			sourceTree = "<group>";
@@ -369,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2EE747E1F01E36D004A4A82 /* AppDelegate.m in Sources */,
+				D204CABC1F035FB200BA7CFF /* AnimationProvider.m in Sources */,
 				D2EE74511F01E144004A4A82 /* main.m in Sources */,
 				D2496CAD1F02547100B80B76 /* BaseNavigationController.m in Sources */,
 				D2EE74C71F0235A5004A4A82 /* UIColor+HexString.m in Sources */,

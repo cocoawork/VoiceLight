@@ -9,14 +9,18 @@
 #import "HomeViewController.h"
 #import "SettingViewController.h"
 #import <AVFoundation/AVFoundation.h>
+#import "AnimationProvider.h"
 
-@interface HomeViewController ()
+@interface HomeViewController ()<UIViewControllerTransitioningDelegate>
 
 @property (nonatomic, strong) AVAudioRecorder *recoder;
 @property (nonatomic, strong) NSTimer *timer;
 
 @property (nonatomic, strong) UILabel *timeLabel;
 @property (nonatomic, strong) UILabel *dateLabel;
+
+@property (nonatomic, strong)AnimationProvider *animationProvider;
+
 
 
 @end
@@ -26,6 +30,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self layoutSubviews];
+    self.animationProvider = [AnimationProvider new];
+    
+    
     
     //单击点亮屏幕手势
     UITapGestureRecognizer *turnOnTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(turnOnScreen)];
@@ -81,10 +88,20 @@
         [self turnTorchOn:NO];
     }
     
-    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"VoiceLight"]) {
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"LightVoice"]) {
         [_recoder stop];
+    }else {
+        [_recoder prepareToRecord];
     }
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:YES animated:YES];
 }
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [[UIApplication sharedApplication] setStatusBarHidden:NO animated:YES];
+}
+
 
 
 #pragma mark - layout
@@ -129,7 +146,7 @@
     [NSTimer scheduledTimerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
         NSDate *date = [NSDate date];
         NSDateFormatter *formatter1 = [[NSDateFormatter alloc] init];
-        [formatter1 setDateFormat:@"HH:mm"];
+        [formatter1 setDateFormat:@"HH:mm:ss"];
         NSString *hours = [formatter1 stringFromDate:date];
         
         NSDateFormatter *formatter2 = [[NSDateFormatter alloc] init];
@@ -146,7 +163,7 @@
 #pragma mark - jump
 - (void)clickedSettingButton:(UIButton *)sender {
     SettingViewController *settingVC = [SettingViewController new];
-//    settingVC.transitioningDelegate = self;
+    settingVC.transitioningDelegate = self;
     [self presentViewController:[[BaseNavigationController alloc] initWithRootViewController:settingVC]
                        animated:YES
                      completion:nil];
@@ -214,7 +231,6 @@
     
     
 - (void) turnTorchOn: (bool) on {
-    
     Class captureDeviceClass = NSClassFromString(@"AVCaptureDevice");
     if (captureDeviceClass != nil) {
         AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
@@ -256,16 +272,11 @@
     float   minDecibels = -80.0f; // Or use -60dB, which I measured in a silent room.
     float   decibels    = [_recoder averagePowerForChannel:0];
     
-    if (decibels < minDecibels)
-    {
+    if (decibels < minDecibels) {
         level = 0.0f;
-    }
-    else if (decibels >= 0.0f)
-    {
+    } else if (decibels >= 0.0f) {
         level = 1.0f;
-    }
-    else
-    {
+    } else {
         float   root            = 2.0f;
         float   minAmp          = powf(10.0f, 0.05f * minDecibels);
         float   inverseAmpRange = 1.0f / (1.0f - minAmp);
@@ -277,6 +288,11 @@
     if (level * 120 >= 50.0) {
         [self turnOnScreen];
     }
-
 }
+
+- (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source
+{
+    return _animationProvider;
+}
+
 @end
