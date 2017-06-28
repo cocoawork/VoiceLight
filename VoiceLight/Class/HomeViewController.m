@@ -105,7 +105,6 @@
 
 
 #pragma mark - layout
-
 - (void)layoutSubviews {
     //设置按钮
     UIButton *settingBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
@@ -131,7 +130,7 @@
     
     
     self.timeLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 100)];
-    [_timeLabel setFont:[UIFont boldSystemFontOfSize:50]];
+    [_timeLabel setFont:[UIFont boldSystemFontOfSize:60]];
     [_timeLabel setTextAlignment:NSTextAlignmentCenter];
     [self.view insertSubview:_timeLabel belowSubview:settingBtn];
     [_timeLabel setCenter:CGPointMake(self.view.center.x, self.view.center.y - 30)];
@@ -146,7 +145,7 @@
     [NSTimer scheduledTimerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
         NSDate *date = [NSDate date];
         NSDateFormatter *formatter1 = [[NSDateFormatter alloc] init];
-        [formatter1 setDateFormat:@"HH:mm:ss"];
+        [formatter1 setDateFormat:@"HH:mm"];
         NSString *hours = [formatter1 stringFromDate:date];
         
         NSDateFormatter *formatter2 = [[NSDateFormatter alloc] init];
@@ -181,7 +180,6 @@
             }
         });
     }
-    NSLog(@"%d", [[NSUserDefaults standardUserDefaults] boolForKey:@"LightVoice"]);
     NSInteger mode = [[NSUserDefaults standardUserDefaults] integerForKey:@"LightMode"];
     if (mode == 0) {
         [UIView transitionWithView:self.view

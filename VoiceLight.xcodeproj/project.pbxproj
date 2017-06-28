@@ -39,6 +39,10 @@
 		D204CAB81F035B8800BA7CFF /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
 		D204CABA1F035FB200BA7CFF /* AnimationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationProvider.h; sourceTree = "<group>"; };
 		D204CABB1F035FB200BA7CFF /* AnimationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationProvider.m; sourceTree = "<group>"; };
+		D204CABD1F03918D00BA7CFF /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		D204CABE1F03918D00BA7CFF /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D204CABF1F03918D00BA7CFF /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D204CAC01F03918D00BA7CFF /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2496CA91F02547100B80B76 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		D2496CAA1F02547100B80B76 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		D2496CAB1F02547100B80B76 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -286,6 +290,7 @@
 				en,
 				Base,
 				"zh-Hans",
+				ja,
 			);
 			mainGroup = D2EE74431F01E144004A4A82;
 			productRefGroup = D2EE744D1F01E144004A4A82 /* Products */;
@@ -392,6 +397,7 @@
 			children = (
 				D277D6D11F02593D00C8A697 /* en */,
 				D277D6D31F02594000C8A697 /* zh-Hans */,
+				D204CAC01F03918D00BA7CFF /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -401,6 +407,7 @@
 			children = (
 				D2EE74591F01E144004A4A82 /* Base */,
 				D2EE74CF1F024636004A4A82 /* zh-Hans */,
+				D204CABD1F03918D00BA7CFF /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -410,6 +417,7 @@
 			children = (
 				D2EE745E1F01E144004A4A82 /* Base */,
 				D2EE74D01F024636004A4A82 /* zh-Hans */,
+				D204CABE1F03918D00BA7CFF /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -420,6 +428,7 @@
 				D2EE74CD1F024613004A4A82 /* en */,
 				D2EE74D11F024636004A4A82 /* zh-Hans */,
 				D2EE74D71F0253B9004A4A82 /* Base */,
+				D204CABF1F03918D00BA7CFF /* ja */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -470,7 +479,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = /Users/zzzz/Desktop/study/VoiceLight/VoiceLight/Base.lproj/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -515,7 +524,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = /Users/zzzz/Desktop/study/VoiceLight/VoiceLight/Base.lproj/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -531,6 +540,7 @@
 				DEVELOPMENT_TEAM = KPHNBL5M56;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/VoiceLight/Define/PrefixHeader.pch";
 				INFOPLIST_FILE = /Users/zzzz/Desktop/study/VoiceLight/VoiceLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.secary.VoiceLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -545,6 +555,7 @@
 				DEVELOPMENT_TEAM = KPHNBL5M56;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/VoiceLight/Define/PrefixHeader.pch";
 				INFOPLIST_FILE = /Users/zzzz/Desktop/study/VoiceLight/VoiceLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.secary.VoiceLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
