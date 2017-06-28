@@ -60,14 +60,16 @@
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     [[Harpy sharedInstance] checkVersionDaily];
-    [[NSUserDefaults standardUserDefaults] setFloat:[[UIScreen mainScreen] brightness] forKey:@"LightLevel"];
+//    [[NSUserDefaults standardUserDefaults] setFloat:[[UIScreen mainScreen] brightness] forKey:@"LightLevel"];
     [[UIScreen mainScreen] setBrightness:_brightness];
 }
 
 
+
+
 - (void)applicationDidEnterBackground:(UIApplication *)application {
-    [[NSUserDefaults standardUserDefaults] setFloat:[[UIScreen mainScreen] brightness] forKey:@"LightLevel"];
-    [[UIScreen mainScreen] setBrightness:_brightness];
+//    [[NSUserDefaults standardUserDefaults] setFloat:[[UIScreen mainScreen] brightness] forKey:@"LightLevel"];
+//    [[UIScreen mainScreen] setBrightness:_brightness];
 }
 
 
@@ -83,8 +85,8 @@
 
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-    [[NSUserDefaults standardUserDefaults] setFloat:[[UIScreen mainScreen] brightness] forKey:@"LightLevel"];
-    [[UIScreen mainScreen] setBrightness:_brightness];
+//    [[NSUserDefaults standardUserDefaults] setFloat:[[UIScreen mainScreen] brightness] forKey:@"LightLevel"];
+//    [[UIScreen mainScreen] setBrightness:_brightness];
 }
 
 

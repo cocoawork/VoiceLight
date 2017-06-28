@@ -7,7 +7,6 @@
 //
 
 #import "SettingViewController.h"
-
 #import <SCLAlertView-Objective-C/SCLAlertView.h>
 #import <Color-Picker-for-iOS/HRColorPickerView.h>
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A37E73C2F390D486A011E60 /* libPods-VoiceLight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5791AA38579AADE4554F3495 /* libPods-VoiceLight.a */; };
+		D204CAB91F035B8800BA7CFF /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D204CAB81F035B8800BA7CFF /* LaunchImage.png */; };
 		D2496CAD1F02547100B80B76 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2496CAA1F02547100B80B76 /* BaseNavigationController.m */; };
 		D2496CAE1F02547100B80B76 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2496CAC1F02547100B80B76 /* BaseViewController.m */; };
 		D277D6CD1F02570D00C8A697 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D277D6CC1F02570D00C8A697 /* Info.plist */; };
@@ -34,6 +35,7 @@
 		3EED39E585CBFA8B07F7007F /* Pods-VoiceLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceLight.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceLight/Pods-VoiceLight.release.xcconfig"; sourceTree = "<group>"; };
 		5791AA38579AADE4554F3495 /* libPods-VoiceLight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceLight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFE3FE69BA16C64F47B7D3F /* Pods-VoiceLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceLight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceLight/Pods-VoiceLight.debug.xcconfig"; sourceTree = "<group>"; };
+		D204CAB81F035B8800BA7CFF /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
 		D2496CA91F02547100B80B76 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		D2496CAA1F02547100B80B76 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		D2496CAB1F02547100B80B76 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 		D2EE747C1F01E36D004A4A82 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				D204CAB81F035B8800BA7CFF /* LaunchImage.png */,
 				D2EE74C01F022EAD004A4A82 /* color@2x.png */,
 				D2EE74BE1F022E73004A4A82 /* exchange@2x.png */,
 				D2EE74B91F01F9DD004A4A82 /* turnOff@2x.png */,
@@ -302,6 +305,7 @@
 				D2EE745C1F01E144004A4A82 /* Assets.xcassets in Resources */,
 				D2EE74B41F01F2AD004A4A82 /* back@2x.png in Resources */,
 				D2EE74B01F01F252004A4A82 /* set@2x.png in Resources */,
+				D204CAB91F035B8800BA7CFF /* LaunchImage.png in Resources */,
 				D2EE74BA1F01F9DD004A4A82 /* turnOff@2x.png in Resources */,
 				D277D6CD1F02570D00C8A697 /* Info.plist in Resources */,
 				D2EE74CC1F024613004A4A82 /* Localizable.strings in Resources */,

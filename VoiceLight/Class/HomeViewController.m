@@ -27,8 +27,6 @@
     [super viewDidLoad];
     [self layoutSubviews];
     
-    
-    
     //单击点亮屏幕手势
     UITapGestureRecognizer *turnOnTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(turnOnScreen)];
     [turnOnTap setNumberOfTapsRequired:1];
@@ -66,9 +64,7 @@
         [_recoder prepareToRecord];
         _recoder.meteringEnabled = YES;
         [_recoder record];
-    }
-    else
-    {
+    } else {
         NSLog(@"%@", [error description]);
     }
     
@@ -83,6 +79,10 @@
     
     if ([[NSUserDefaults standardUserDefaults] integerForKey:@"LightMode"] != 1) {
         [self turnTorchOn:NO];
+    }
+    
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"VoiceLight"]) {
+        [_recoder stop];
     }
 }
 
@@ -147,7 +147,6 @@
 - (void)clickedSettingButton:(UIButton *)sender {
     SettingViewController *settingVC = [SettingViewController new];
 //    settingVC.transitioningDelegate = self;
-    
     [self presentViewController:[[BaseNavigationController alloc] initWithRootViewController:settingVC]
                        animated:YES
                      completion:nil];
@@ -157,14 +156,15 @@
 
 #pragma mark - function
 - (void)turnOffScreen { //关灯
-    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"LightVoice"]) {
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"LightVoice"] == YES) {
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [_recoder prepareToRecord];
             if (!_timer) {
                 [NSTimer scheduledTimerWithTimeInterval: 0.1 target: self selector: @selector(levelTimerCallback:) userInfo: nil repeats: YES];
             }
         });
     }
-    
+    NSLog(@"%d", [[NSUserDefaults standardUserDefaults] boolForKey:@"LightVoice"]);
     NSInteger mode = [[NSUserDefaults standardUserDefaults] integerForKey:@"LightMode"];
     if (mode == 0) {
         [UIView transitionWithView:self.view
@@ -191,6 +191,7 @@
     if (_timer) {
         [_timer invalidate];
         _timer = nil;
+        [_recoder stop];
     }
     
     NSInteger mode = [[NSUserDefaults standardUserDefaults] integerForKey:@"LightMode"];
@@ -200,7 +201,7 @@
                            options:(UIViewAnimationOptionCurveEaseIn)
                         animations:^{
                             [[UIApplication sharedApplication] keyWindow].alpha = 1;
-                            [[UIScreen mainScreen] setBrightness:0.5];
+                            [[UIScreen mainScreen] setBrightness:[[NSUserDefaults standardUserDefaults] floatForKey:@"LightLevel"]];
                         } completion:nil];
         return;
     }
@@ -218,7 +219,6 @@
     if (captureDeviceClass != nil) {
         AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
         if ([device hasTorch] && [device hasFlash]){
-            
             [device lockForConfiguration:nil];
             if (on) {
                 [device setTorchMode:AVCaptureTorchModeOn];
@@ -243,6 +243,7 @@
     if (y > 0) {
         brightness -= 0.02;
     }
+    [[NSUserDefaults standardUserDefaults] setFloat:brightness forKey:@"LightLevel"];
     [[UIScreen mainScreen] setBrightness:brightness];
 }
     
