@@ -27,7 +27,6 @@
         [[NSUserDefaults standardUserDefaults] setValue:@"#FFE4C4" forKey:@"LightColor"];
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"LightVoice"];
         [[NSUserDefaults standardUserDefaults] setFloat:[[UIScreen mainScreen] brightness] forKey:@"LightLevel"];
-        
     }
     [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"isFirstLaunch"];
     [application setIdleTimerDisabled:YES];
@@ -37,13 +36,12 @@
     
     
     //引导用户评论
-#warning appid 待修改
-    [Appirater setAppId:@"770699556"];
+    [Appirater setAppId:@"1284275579"];
     [Appirater setDaysUntilPrompt:2];
     [Appirater setUsesUntilPrompt:3];
     [Appirater setSignificantEventsUntilPrompt:-1];
     [Appirater setTimeBeforeReminding:2];
-    [Appirater setDebug:YES];
+    [Appirater setDebug:NO];
     [Appirater appLaunched:YES];
     
     
@@ -87,6 +85,7 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
 //    [[NSUserDefaults standardUserDefaults] setFloat:[[UIScreen mainScreen] brightness] forKey:@"LightLevel"];
 //    [[UIScreen mainScreen] setBrightness:_brightness];
+    
 }
 
 
